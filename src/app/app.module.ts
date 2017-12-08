@@ -4,7 +4,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { HistoryPage } from '../pages/history/history';
+import { ClubsPage } from '../pages/clubs/clubs';
 import { Eve1Page } from '../pages/eve1/eve1';
 import { Eve2Page } from '../pages/eve2/eve2';
 import { Eve3Page } from '../pages/eve3/eve3';
@@ -16,10 +17,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     Eve1Page,
     Eve2Page,
-    Eve3Page
+    Eve3Page,
+    HistoryPage,
+    ClubsPage
   ],
   imports: [
     BrowserModule,
@@ -29,10 +31,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     Eve1Page,
     Eve2Page,
-    Eve3Page
+    Eve3Page,
+    HistoryPage,
+    ClubsPage
   ],
   providers: [
     StatusBar,

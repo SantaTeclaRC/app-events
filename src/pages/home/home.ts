@@ -19,6 +19,7 @@ export class HomePage {
   eve2() {
     this.navCtrl.push(Eve2Page);
   }
+  
   eve3() {
     this.navCtrl.push(Eve3Page);
   }
