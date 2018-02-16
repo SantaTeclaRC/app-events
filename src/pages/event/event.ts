@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the Eve1Page page.
+ * Generated class for the EventPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-eve1',
-  templateUrl: 'eve1.html',
+  selector: 'page-event',
+  templateUrl: 'event.html',
 })
-export class Eve1Page {
+export class EventPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Eve1Page');
+    console.log('ionViewDidLoad EventPage');
   }
 
 }

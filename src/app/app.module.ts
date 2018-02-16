@@ -6,9 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoryPage } from '../pages/history/history';
 import { ClubsPage } from '../pages/clubs/clubs';
-import { Eve1Page } from '../pages/eve1/eve1';
-import { Eve2Page } from '../pages/eve2/eve2';
-import { Eve3Page } from '../pages/eve3/eve3';
+import { EventPage } from "../pages/event/event";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,11 +15,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    Eve1Page,
-    Eve2Page,
-    Eve3Page,
     HistoryPage,
-    ClubsPage
+    ClubsPage,
+    EventPage
   ],
   imports: [
     BrowserModule,
@@ -31,11 +27,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    Eve1Page,
-    Eve2Page,
-    Eve3Page,
     HistoryPage,
-    ClubsPage
+    ClubsPage,
+    EventPage
   ],
   providers: [
     StatusBar,
